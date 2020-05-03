@@ -1,0 +1,67 @@
+.content{
+	float: left;
+	width: 100%;
+	margin-left: 100px;
+	padding: 40px;
+}
+
+.img {
+	margin:auto;
+}
+
+body{
+	background-image: url("../../images/BG1.png");
+	background-attachment: fixed;
+	padding: 30px;
+}
+
+
+.row{
+   min-height:460px;
+	
+}
+
+.box-konten{
+	min-height:500px;
+	padding: 15px;
+	
+
+}
+
+.box-left{
+	width: 260px;
+	height: 300px;
+	display: inline-block;
+	padding: 15px;
+}
+
+
+.buttons{
+	padding: 20px 150px;
+}
+.box1{
+	width: 120px;
+	height: 60px;
+	margin-bottom: 15px;
+	margin-top: 0;
+	margin-left: 25px;
+	margin-right: 10px;
+	display: inline-block;
+	padding: 5px;
+}
+
+ul, li{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+ul.submenu{
+	display:none;
+}
+
+ul.menu li:hover ul.submenu{
+	display:block;
+	margin-left:10px;
+}
+
